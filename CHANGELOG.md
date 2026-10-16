@@ -6,6 +6,7 @@ Changelog
 
 ### New
 
+- **[IR/interop]** `@BindsOptionalOf` declarations also bind Guava's `Optional`, like Dagger does.
 - **[metrox-viewmodel-compose]** Add support for `linuxX64`.
 - **[FIR]** Add the `diagnostic-level` compiler option to change the severity of Metro diagnostics reported in FIR. It works like kotlinc's `-Xwarning-level` but can also lower errors and use IDE-only levels. See [changing diagnostic severity](docs/validation-and-error-reporting.md#changing-diagnostic-severity).
 - **[FIR/IC]** Add the `function-inject-annotations-override` compiler option to use dedicated annotations for top-level function injection. See [custom function injection annotations](docs/injection-types.md#custom-function-injection-annotations).
