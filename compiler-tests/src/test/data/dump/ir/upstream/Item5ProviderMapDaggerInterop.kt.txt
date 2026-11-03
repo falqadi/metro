@@ -1,0 +1,361 @@
+@Inject
+class AlphaHandler : Handler {
+  val dep: Dep
+    field = dep
+    get
+
+  @Deprecated(message = "This synthesized declaration should not be used directly", level = DeprecationLevel.HIDDEN)
+  class MetroFactory : Factory<AlphaHandler> {
+    private /* final field */ val dep: Provider<Dep> = dep
+    companion object Companion {
+      private constructor() /* primary */ {
+        super/*Any*/()
+        /* <init>() */
+
+      }
+
+      @HiddenFromObjC
+      @JvmStatic
+      @JsStatic
+      fun create(dep: Provider<Dep>): MetroFactory {
+        return MetroFactory(dep = dep)
+      }
+
+      @HiddenFromObjC
+      @JvmStatic
+      @JsStatic
+      fun newInstance(dep: Dep): AlphaHandler {
+        return AlphaHandler(dep = dep)
+      }
+
+    }
+
+    @HiddenFromObjC
+    private constructor(dep: Provider<Dep>) /* primary */ {
+      super/*Any*/()
+      /* <init>() */
+
+    }
+
+    @ComptimeOnly
+    @HiddenFromObjC
+    fun declarationMirror(dep: Dep): AlphaHandler {
+      return error(message = "Never called")
+    }
+
+    @HiddenFromObjC
+    override operator fun invoke(): AlphaHandler {
+      return MetroFactory/* companion */.newInstance(dep = <this>.#dep.invoke())
+    }
+
+  }
+
+  constructor(dep: Dep) /* primary */ {
+    super/*Any*/()
+    /* <init>() */
+
+  }
+
+}
+
+@Inject
+class BetaHandler : Handler {
+  val dep: Dep
+    field = dep
+    get
+
+  @Deprecated(message = "This synthesized declaration should not be used directly", level = DeprecationLevel.HIDDEN)
+  class MetroFactory : Factory<BetaHandler> {
+    private /* final field */ val dep: Provider<Dep> = dep
+    companion object Companion {
+      private constructor() /* primary */ {
+        super/*Any*/()
+        /* <init>() */
+
+      }
+
+      @HiddenFromObjC
+      @JvmStatic
+      @JsStatic
+      fun create(dep: Provider<Dep>): MetroFactory {
+        return MetroFactory(dep = dep)
+      }
+
+      @HiddenFromObjC
+      @JvmStatic
+      @JsStatic
+      fun newInstance(dep: Dep): BetaHandler {
+        return BetaHandler(dep = dep)
+      }
+
+    }
+
+    @HiddenFromObjC
+    private constructor(dep: Provider<Dep>) /* primary */ {
+      super/*Any*/()
+      /* <init>() */
+
+    }
+
+    @ComptimeOnly
+    @HiddenFromObjC
+    fun declarationMirror(dep: Dep): BetaHandler {
+      return error(message = "Never called")
+    }
+
+    @HiddenFromObjC
+    override operator fun invoke(): BetaHandler {
+      return MetroFactory/* companion */.newInstance(dep = <this>.#dep.invoke())
+    }
+
+  }
+
+  constructor(dep: Dep) /* primary */ {
+    super/*Any*/()
+    /* <init>() */
+
+  }
+
+}
+
+@Inject
+class Dep {
+  @Deprecated(message = "This synthesized declaration should not be used directly", level = DeprecationLevel.HIDDEN)
+  object MetroFactory : Factory<Dep> {
+    private constructor() /* primary */ {
+      super/*Any*/()
+      /* <init>() */
+
+    }
+
+    @HiddenFromObjC
+    @JvmStatic
+    @JsStatic
+    fun create(): MetroFactory {
+      return MetroFactory
+    }
+
+    @HiddenFromObjC
+    @JvmStatic
+    @JsStatic
+    fun newInstance(): Dep {
+      return Dep()
+    }
+
+    @ComptimeOnly
+    @HiddenFromObjC
+    fun declarationMirror(): Dep {
+      return error(message = "Never called")
+    }
+
+    @HiddenFromObjC
+    override operator fun invoke(): Dep {
+      return MetroFactory.newInstance()
+    }
+
+  }
+
+  constructor() /* primary */ {
+    super/*Any*/()
+    /* <init>() */
+
+  }
+
+}
+
+@DependencyGraph(scope = AppScope::class, bindingContainers = [HandlerBindings::class])
+interface AppGraph {
+  @Deprecated(message = "This synthesized declaration should not be used directly", level = DeprecationLevel.HIDDEN)
+  @MetroImplMarker
+  class Impl : AppGraph {
+    private val depProvider: Provider<Dep>
+      field = SwitchingProvider<Dep>(graph = <this>, id = 0)
+
+    private class SwitchingProvider<T : Any?> : Provider<T> {
+      constructor(graph: Impl, id: Int) /* primary */ {
+        super/*Any*/()
+        <this>.#graph = graph
+        <this>.#id = id
+      }
+
+      override fun invoke(): T {
+        return { // BLOCK
+          val tmp0_id: Int = <this>.#id
+          when {
+            EQEQ(arg0 = tmp0_id, arg1 = 0) -> Dep() /*as T */
+            else -> throw error(message = "Unexpected SwitchingProvider id: " + tmp0_id)
+          }
+        }
+      }
+
+      private val graph: Impl
+
+      private val id: Int
+
+    }
+
+    private constructor() /* primary */ {
+      super/*Any*/()
+      /* <init>() */
+
+    }
+
+    override val handlers: Map<Class<*>, @JvmSuppressWildcards Provider<Handler>>
+      override get(): Map<Class<*>, @JvmSuppressWildcards Provider<Handler>> {
+        return mapKeys<KClass<*>, @JvmSuppressWildcards Provider<Handler>, Class<*>>(/* <this> = buildMap<KClass<*>, Provider<Handler>>(capacity = 2, builderAction = local fun MutableMap<KClass<*>, Provider<Handler>>.<anonymous>() {
+          $receiver.put(key = BetaHandler::class, value = asJavaxProvider<Handler>(/* <this> = create(handler = create(dep = <this>.#depProvider)) */))
+          $receiver.put(key = AlphaHandler::class, value = asJavaxProvider<Handler>(/* <this> = create(handler = create(dep = <this>.#depProvider)) */))
+        }
+), */ transform = local fun <anonymous>(arg0: Map.Entry<KClass<*>, @JvmSuppressWildcards Provider<Handler>>): Class<*> {
+          return <get-java><Any?>(/* <this> = arg0.<get-key>() */)
+        }
+)
+      }
+
+  }
+
+  companion object Companion {
+    private constructor() /* primary */ {
+      super/*Any*/()
+      /* <init>() */
+
+    }
+
+    @GraphFactoryInvokeFunctionMarker
+    @JvmStatic
+    @JsStatic
+    operator fun invoke(): AppGraph {
+      return Impl()
+    }
+
+  }
+
+  abstract val handlers: Map<Class<*>, @JvmSuppressWildcards Provider<Handler>>
+    abstract get
+
+}
+
+interface Handler {
+}
+
+@BindingContainer
+object HandlerBindings {
+  @Deprecated(message = "This synthesized declaration should not be used directly", level = DeprecationLevel.HIDDEN)
+  @CallableMetadata(callableName = "alpha", propertyName = "", startOffset = 604, endOffset = 707, newInstanceName = "alpha")
+  class AlphaMetroFactory : Factory<Handler> {
+    private /* final field */ val handler: Provider<AlphaHandler> = handler
+    companion object Companion {
+      private constructor() /* primary */ {
+        super/*Any*/()
+        /* <init>() */
+
+      }
+
+      @HiddenFromObjC
+      @JvmStatic
+      @JsStatic
+      fun create(handler: Provider<AlphaHandler>): AlphaMetroFactory {
+        return AlphaMetroFactory(handler = handler)
+      }
+
+      @HiddenFromObjC
+      @JvmStatic
+      @JsStatic
+      fun alpha(handler: AlphaHandler): Handler {
+        return HandlerBindings.alpha(handler = handler)
+      }
+
+    }
+
+    @HiddenFromObjC
+    private constructor(handler: Provider<AlphaHandler>) /* primary */ {
+      super/*Any*/()
+      /* <init>() */
+
+    }
+
+    @IntoMap
+    @ClassKey(value = AlphaHandler::class)
+    @ComptimeOnly
+    @HiddenFromObjC
+    fun declarationMirror(handler: AlphaHandler): Handler {
+      return error(message = "Never called")
+    }
+
+    @HiddenFromObjC
+    override operator fun invoke(): Handler {
+      return AlphaMetroFactory/* companion */.alpha(handler = <this>.#handler.invoke())
+    }
+
+  }
+
+  @Deprecated(message = "This synthesized declaration should not be used directly", level = DeprecationLevel.HIDDEN)
+  @CallableMetadata(callableName = "beta", propertyName = "", startOffset = 711, endOffset = 811, newInstanceName = "beta")
+  class BetaMetroFactory : Factory<Handler> {
+    private /* final field */ val handler: Provider<BetaHandler> = handler
+    companion object Companion {
+      private constructor() /* primary */ {
+        super/*Any*/()
+        /* <init>() */
+
+      }
+
+      @HiddenFromObjC
+      @JvmStatic
+      @JsStatic
+      fun create(handler: Provider<BetaHandler>): BetaMetroFactory {
+        return BetaMetroFactory(handler = handler)
+      }
+
+      @HiddenFromObjC
+      @JvmStatic
+      @JsStatic
+      fun beta(handler: BetaHandler): Handler {
+        return HandlerBindings.beta(handler = handler)
+      }
+
+    }
+
+    @HiddenFromObjC
+    private constructor(handler: Provider<BetaHandler>) /* primary */ {
+      super/*Any*/()
+      /* <init>() */
+
+    }
+
+    @IntoMap
+    @ClassKey(value = BetaHandler::class)
+    @ComptimeOnly
+    @HiddenFromObjC
+    fun declarationMirror(handler: BetaHandler): Handler {
+      return error(message = "Never called")
+    }
+
+    @HiddenFromObjC
+    override operator fun invoke(): Handler {
+      return BetaMetroFactory/* companion */.beta(handler = <this>.#handler.invoke())
+    }
+
+  }
+
+  private constructor() /* primary */ {
+    super/*Any*/()
+    /* <init>() */
+
+  }
+
+  @Provides
+  @IntoMap
+  @ClassKey(value = AlphaHandler::class)
+  fun alpha(handler: AlphaHandler): Handler {
+    return handler
+  }
+
+  @Provides
+  @IntoMap
+  @ClassKey(value = BetaHandler::class)
+  fun beta(handler: BetaHandler): Handler {
+    return handler
+  }
+
+}
