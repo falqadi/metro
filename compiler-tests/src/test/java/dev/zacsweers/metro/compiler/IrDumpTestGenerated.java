@@ -874,6 +874,32 @@ public class IrDumpTestGenerated extends AbstractIrDumpTest {
   }
 
   @Nested
+  @TestMetadata("compiler-tests/src/test/data/dump/ir/upstream")
+  @TestDataPath("$PROJECT_ROOT")
+  public class Upstream {
+    private void run(String fileName) {
+      runTest("compiler-tests/src/test/data/dump/ir/upstream/" + fileName);
+    }
+
+    @Test
+    public void testAllFilesPresentInUpstream() {
+      KtTestUtil.assertAllTestsPresentByMetadataWithExcluded(this.getClass(), new File("compiler-tests/src/test/data/dump/ir/upstream"), Pattern.compile("^(.+)\\.kt$"), null, true);
+    }
+
+    @Test
+    @TestMetadata("K1ProvidedClassKeyedMap.kt")
+    public void testK1ProvidedClassKeyedMap() {
+      run("K1ProvidedClassKeyedMap.kt");
+    }
+
+    @Test
+    @TestMetadata("K2ProvidedKClassKeyedMapClassAccessor.kt")
+    public void testK2ProvidedKClassKeyedMapClassAccessor() {
+      run("K2ProvidedKClassKeyedMapClassAccessor.kt");
+    }
+  }
+
+  @Nested
   @TestMetadata("compiler-tests/src/test/data/dump/ir/visibility")
   @TestDataPath("$PROJECT_ROOT")
   public class Visibility {
