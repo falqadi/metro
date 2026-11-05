@@ -18,8 +18,10 @@ The Dagger source that the processor generated is committed in `generated/`. It 
 
 Run on 2026-11-05 (macOS, Zulu 21, Gradle 9.8.2, Dagger 2.60.1):
 
-- Accessor reads after the child is built: 0.
-- Accessor reads after two `get()` calls: 2.
+| | Accessor reads after the child is built | After two `get()` calls |
+|---|---|---|
+| Dagger (`./gradlew run`) | 0 | 2 |
+| Metro (box test on this branch, `results/metro-box.txt`) | 1 | 1 |
 
 ## Generated code
 

@@ -43,9 +43,12 @@ fun box(): String {
   val deps = CountingDeps()
   val parent = createGraphFactory<ParentGraph.Factory>().create(deps)
   val consumer = parent.create().consumer
-  if (deps.reads != 0) return "FAIL: accessor read ${deps.reads} time(s) while building the child, expected 0"
+  val readsAfterBuild = deps.reads
   consumer.service()
   consumer.service()
-  if (deps.reads != 2) return "FAIL: accessor read ${deps.reads} time(s) after two provider reads, expected 2"
+  val readsAfterTwoReads = deps.reads
+  if (readsAfterBuild != 0 || readsAfterTwoReads != 2) {
+    return "FAIL: accessor reads after building the child = $readsAfterBuild (expected 0), after two provider reads = $readsAfterTwoReads (expected 2)"
+  }
   return "OK"
 }

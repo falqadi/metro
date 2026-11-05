@@ -1,0 +1,3 @@
+# Metro box test Item1ChildGraphProviderOfParentAccessor, BoxTestGenerated, Metro main 2025f2b12, local Zulu 21
+FAIL: accessor reads after building the child = \u0001 (expected 0), after two provider reads = \u0001 (expected 2)
+FAIL: accessor reads after building the child = 1 (expected 0), after two provider reads = 1 (expected 2)
