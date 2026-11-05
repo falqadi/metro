@@ -1,0 +1,16 @@
+# Item5ProviderMapIncludedDepsDaggerInterop (BoxTestGenerated, test JVM stdout)
+javax Provider, 20 entries round 1: 2256.3416 bytes allocated per map read
+javax Provider, 20 entries round 2: 2256.0 bytes allocated per map read
+javax Provider, 20 entries round 3: 2256.0 bytes allocated per map read
+# Item5ProviderMapIncludedDepsMetro (BoxTestGenerated, test JVM stdout)
+Metro Provider, 20 entries round 1: 1936.0 bytes allocated per map read
+Metro Provider, 20 entries round 2: 1936.0 bytes allocated per map read
+Metro Provider, 20 entries round 3: 1936.0 bytes allocated per map read
+# Item5ProviderMapIncludedDeps100DaggerInterop (BoxTestGenerated, test JVM stdout)
+javax Provider, 100 entries round 1: 11152.0 bytes allocated per map read
+javax Provider, 100 entries round 2: 11152.0 bytes allocated per map read
+javax Provider, 100 entries round 3: 11152.0 bytes allocated per map read
+# Item5ProviderMapIncludedDeps100Metro (BoxTestGenerated, test JVM stdout)
+Metro Provider, 100 entries round 1: 9552.0 bytes allocated per map read
+Metro Provider, 100 entries round 2: 9552.0 bytes allocated per map read
+Metro Provider, 100 entries round 3: 9552.0 bytes allocated per map read

@@ -96,6 +96,6 @@ fun box(): String {
     override val d3 = D3()
     override val d4 = D4()
   })
-  alloc("Metro") { g.handlers }
+  alloc("Metro Provider, 20 entries") { g.handlers }
   return "OK"
 }

@@ -1,0 +1,7 @@
+two-entry graph keys: [alpha, beta]
+Dagger, 20 entries  round 1: 1040.0 bytes allocated per map read
+Dagger, 100 entries round 1: 5152.0 bytes allocated per map read
+Dagger, 20 entries  round 2: 1040.0 bytes allocated per map read
+Dagger, 100 entries round 2: 5152.0 bytes allocated per map read
+Dagger, 20 entries  round 3: 1040.0 bytes allocated per map read
+Dagger, 100 entries round 3: 5152.0 bytes allocated per map read

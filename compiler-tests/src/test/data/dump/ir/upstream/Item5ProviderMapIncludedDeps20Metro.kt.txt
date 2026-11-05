@@ -1,0 +1,1921 @@
+class D0 {
+  constructor() /* primary */ {
+    super/*Any*/()
+    /* <init>() */
+
+  }
+
+}
+
+class D1 {
+  constructor() /* primary */ {
+    super/*Any*/()
+    /* <init>() */
+
+  }
+
+}
+
+class D2 {
+  constructor() /* primary */ {
+    super/*Any*/()
+    /* <init>() */
+
+  }
+
+}
+
+class D3 {
+  constructor() /* primary */ {
+    super/*Any*/()
+    /* <init>() */
+
+  }
+
+}
+
+class D4 {
+  constructor() /* primary */ {
+    super/*Any*/()
+    /* <init>() */
+
+  }
+
+}
+
+class H0 : Handler {
+  val a: D0
+    field = a
+    get
+
+  val b: D1
+    field = b
+    get
+
+  val c: D2
+    field = c
+    get
+
+  constructor(a: D0, b: D1, c: D2) /* primary */ {
+    super/*Any*/()
+    /* <init>() */
+
+  }
+
+}
+
+class H1 : Handler {
+  val a: D1
+    field = a
+    get
+
+  val b: D2
+    field = b
+    get
+
+  val c: D3
+    field = c
+    get
+
+  constructor(a: D1, b: D2, c: D3) /* primary */ {
+    super/*Any*/()
+    /* <init>() */
+
+  }
+
+}
+
+class H10 : Handler {
+  val a: D0
+    field = a
+    get
+
+  val b: D1
+    field = b
+    get
+
+  val c: D2
+    field = c
+    get
+
+  constructor(a: D0, b: D1, c: D2) /* primary */ {
+    super/*Any*/()
+    /* <init>() */
+
+  }
+
+}
+
+class H11 : Handler {
+  val a: D1
+    field = a
+    get
+
+  val b: D2
+    field = b
+    get
+
+  val c: D3
+    field = c
+    get
+
+  constructor(a: D1, b: D2, c: D3) /* primary */ {
+    super/*Any*/()
+    /* <init>() */
+
+  }
+
+}
+
+class H12 : Handler {
+  val a: D2
+    field = a
+    get
+
+  val b: D3
+    field = b
+    get
+
+  val c: D4
+    field = c
+    get
+
+  constructor(a: D2, b: D3, c: D4) /* primary */ {
+    super/*Any*/()
+    /* <init>() */
+
+  }
+
+}
+
+class H13 : Handler {
+  val a: D3
+    field = a
+    get
+
+  val b: D4
+    field = b
+    get
+
+  val c: D0
+    field = c
+    get
+
+  constructor(a: D3, b: D4, c: D0) /* primary */ {
+    super/*Any*/()
+    /* <init>() */
+
+  }
+
+}
+
+class H14 : Handler {
+  val a: D4
+    field = a
+    get
+
+  val b: D0
+    field = b
+    get
+
+  val c: D1
+    field = c
+    get
+
+  constructor(a: D4, b: D0, c: D1) /* primary */ {
+    super/*Any*/()
+    /* <init>() */
+
+  }
+
+}
+
+class H15 : Handler {
+  val a: D0
+    field = a
+    get
+
+  val b: D1
+    field = b
+    get
+
+  val c: D2
+    field = c
+    get
+
+  constructor(a: D0, b: D1, c: D2) /* primary */ {
+    super/*Any*/()
+    /* <init>() */
+
+  }
+
+}
+
+class H16 : Handler {
+  val a: D1
+    field = a
+    get
+
+  val b: D2
+    field = b
+    get
+
+  val c: D3
+    field = c
+    get
+
+  constructor(a: D1, b: D2, c: D3) /* primary */ {
+    super/*Any*/()
+    /* <init>() */
+
+  }
+
+}
+
+class H17 : Handler {
+  val a: D2
+    field = a
+    get
+
+  val b: D3
+    field = b
+    get
+
+  val c: D4
+    field = c
+    get
+
+  constructor(a: D2, b: D3, c: D4) /* primary */ {
+    super/*Any*/()
+    /* <init>() */
+
+  }
+
+}
+
+class H18 : Handler {
+  val a: D3
+    field = a
+    get
+
+  val b: D4
+    field = b
+    get
+
+  val c: D0
+    field = c
+    get
+
+  constructor(a: D3, b: D4, c: D0) /* primary */ {
+    super/*Any*/()
+    /* <init>() */
+
+  }
+
+}
+
+class H19 : Handler {
+  val a: D4
+    field = a
+    get
+
+  val b: D0
+    field = b
+    get
+
+  val c: D1
+    field = c
+    get
+
+  constructor(a: D4, b: D0, c: D1) /* primary */ {
+    super/*Any*/()
+    /* <init>() */
+
+  }
+
+}
+
+class H2 : Handler {
+  val a: D2
+    field = a
+    get
+
+  val b: D3
+    field = b
+    get
+
+  val c: D4
+    field = c
+    get
+
+  constructor(a: D2, b: D3, c: D4) /* primary */ {
+    super/*Any*/()
+    /* <init>() */
+
+  }
+
+}
+
+class H3 : Handler {
+  val a: D3
+    field = a
+    get
+
+  val b: D4
+    field = b
+    get
+
+  val c: D0
+    field = c
+    get
+
+  constructor(a: D3, b: D4, c: D0) /* primary */ {
+    super/*Any*/()
+    /* <init>() */
+
+  }
+
+}
+
+class H4 : Handler {
+  val a: D4
+    field = a
+    get
+
+  val b: D0
+    field = b
+    get
+
+  val c: D1
+    field = c
+    get
+
+  constructor(a: D4, b: D0, c: D1) /* primary */ {
+    super/*Any*/()
+    /* <init>() */
+
+  }
+
+}
+
+class H5 : Handler {
+  val a: D0
+    field = a
+    get
+
+  val b: D1
+    field = b
+    get
+
+  val c: D2
+    field = c
+    get
+
+  constructor(a: D0, b: D1, c: D2) /* primary */ {
+    super/*Any*/()
+    /* <init>() */
+
+  }
+
+}
+
+class H6 : Handler {
+  val a: D1
+    field = a
+    get
+
+  val b: D2
+    field = b
+    get
+
+  val c: D3
+    field = c
+    get
+
+  constructor(a: D1, b: D2, c: D3) /* primary */ {
+    super/*Any*/()
+    /* <init>() */
+
+  }
+
+}
+
+class H7 : Handler {
+  val a: D2
+    field = a
+    get
+
+  val b: D3
+    field = b
+    get
+
+  val c: D4
+    field = c
+    get
+
+  constructor(a: D2, b: D3, c: D4) /* primary */ {
+    super/*Any*/()
+    /* <init>() */
+
+  }
+
+}
+
+class H8 : Handler {
+  val a: D3
+    field = a
+    get
+
+  val b: D4
+    field = b
+    get
+
+  val c: D0
+    field = c
+    get
+
+  constructor(a: D3, b: D4, c: D0) /* primary */ {
+    super/*Any*/()
+    /* <init>() */
+
+  }
+
+}
+
+class H9 : Handler {
+  val a: D4
+    field = a
+    get
+
+  val b: D0
+    field = b
+    get
+
+  val c: D1
+    field = c
+    get
+
+  constructor(a: D4, b: D0, c: D1) /* primary */ {
+    super/*Any*/()
+    /* <init>() */
+
+  }
+
+}
+
+@DependencyGraph(scope = AppScope::class, bindingContainers = [HandlerBindings::class])
+interface AppGraph {
+  @Deprecated(message = "This synthesized declaration should not be used directly", level = DeprecationLevel.HIDDEN)
+  @MetroImplMarker
+  class Impl : AppGraph {
+    private val depsInstance: Deps
+      field = deps
+
+    private constructor(@Includes deps: Deps) /* primary */ {
+      super/*Any*/()
+      /* <init>() */
+
+    }
+
+    override val handlers: Map<String, Provider<Handler>>
+      override get(): Map<String, Provider<Handler>> {
+        return buildMap<String, Provider<Handler>>(capacity = 20, builderAction = local fun MutableMap<String, Provider<Handler>>.<anonymous>() {
+          $receiver.put(key = "h19", value = create(a = local fun <anonymous>(): D4 {
+            return <this>.#depsInstance.<get-d4>()
+          }
+ /*-> Provider<D4> */, b = local fun <anonymous>(): D0 {
+            return <this>.#depsInstance.<get-d0>()
+          }
+ /*-> Provider<D0> */, c = local fun <anonymous>(): D1 {
+            return <this>.#depsInstance.<get-d1>()
+          }
+ /*-> Provider<D1> */))
+          $receiver.put(key = "h18", value = create(a = local fun <anonymous>(): D3 {
+            return <this>.#depsInstance.<get-d3>()
+          }
+ /*-> Provider<D3> */, b = local fun <anonymous>(): D4 {
+            return <this>.#depsInstance.<get-d4>()
+          }
+ /*-> Provider<D4> */, c = local fun <anonymous>(): D0 {
+            return <this>.#depsInstance.<get-d0>()
+          }
+ /*-> Provider<D0> */))
+          $receiver.put(key = "h17", value = create(a = local fun <anonymous>(): D2 {
+            return <this>.#depsInstance.<get-d2>()
+          }
+ /*-> Provider<D2> */, b = local fun <anonymous>(): D3 {
+            return <this>.#depsInstance.<get-d3>()
+          }
+ /*-> Provider<D3> */, c = local fun <anonymous>(): D4 {
+            return <this>.#depsInstance.<get-d4>()
+          }
+ /*-> Provider<D4> */))
+          $receiver.put(key = "h16", value = create(a = local fun <anonymous>(): D1 {
+            return <this>.#depsInstance.<get-d1>()
+          }
+ /*-> Provider<D1> */, b = local fun <anonymous>(): D2 {
+            return <this>.#depsInstance.<get-d2>()
+          }
+ /*-> Provider<D2> */, c = local fun <anonymous>(): D3 {
+            return <this>.#depsInstance.<get-d3>()
+          }
+ /*-> Provider<D3> */))
+          $receiver.put(key = "h15", value = create(a = local fun <anonymous>(): D0 {
+            return <this>.#depsInstance.<get-d0>()
+          }
+ /*-> Provider<D0> */, b = local fun <anonymous>(): D1 {
+            return <this>.#depsInstance.<get-d1>()
+          }
+ /*-> Provider<D1> */, c = local fun <anonymous>(): D2 {
+            return <this>.#depsInstance.<get-d2>()
+          }
+ /*-> Provider<D2> */))
+          $receiver.put(key = "h14", value = create(a = local fun <anonymous>(): D4 {
+            return <this>.#depsInstance.<get-d4>()
+          }
+ /*-> Provider<D4> */, b = local fun <anonymous>(): D0 {
+            return <this>.#depsInstance.<get-d0>()
+          }
+ /*-> Provider<D0> */, c = local fun <anonymous>(): D1 {
+            return <this>.#depsInstance.<get-d1>()
+          }
+ /*-> Provider<D1> */))
+          $receiver.put(key = "h13", value = create(a = local fun <anonymous>(): D3 {
+            return <this>.#depsInstance.<get-d3>()
+          }
+ /*-> Provider<D3> */, b = local fun <anonymous>(): D4 {
+            return <this>.#depsInstance.<get-d4>()
+          }
+ /*-> Provider<D4> */, c = local fun <anonymous>(): D0 {
+            return <this>.#depsInstance.<get-d0>()
+          }
+ /*-> Provider<D0> */))
+          $receiver.put(key = "h12", value = create(a = local fun <anonymous>(): D2 {
+            return <this>.#depsInstance.<get-d2>()
+          }
+ /*-> Provider<D2> */, b = local fun <anonymous>(): D3 {
+            return <this>.#depsInstance.<get-d3>()
+          }
+ /*-> Provider<D3> */, c = local fun <anonymous>(): D4 {
+            return <this>.#depsInstance.<get-d4>()
+          }
+ /*-> Provider<D4> */))
+          $receiver.put(key = "h11", value = create(a = local fun <anonymous>(): D1 {
+            return <this>.#depsInstance.<get-d1>()
+          }
+ /*-> Provider<D1> */, b = local fun <anonymous>(): D2 {
+            return <this>.#depsInstance.<get-d2>()
+          }
+ /*-> Provider<D2> */, c = local fun <anonymous>(): D3 {
+            return <this>.#depsInstance.<get-d3>()
+          }
+ /*-> Provider<D3> */))
+          $receiver.put(key = "h10", value = create(a = local fun <anonymous>(): D0 {
+            return <this>.#depsInstance.<get-d0>()
+          }
+ /*-> Provider<D0> */, b = local fun <anonymous>(): D1 {
+            return <this>.#depsInstance.<get-d1>()
+          }
+ /*-> Provider<D1> */, c = local fun <anonymous>(): D2 {
+            return <this>.#depsInstance.<get-d2>()
+          }
+ /*-> Provider<D2> */))
+          $receiver.put(key = "h0", value = create(a = local fun <anonymous>(): D0 {
+            return <this>.#depsInstance.<get-d0>()
+          }
+ /*-> Provider<D0> */, b = local fun <anonymous>(): D1 {
+            return <this>.#depsInstance.<get-d1>()
+          }
+ /*-> Provider<D1> */, c = local fun <anonymous>(): D2 {
+            return <this>.#depsInstance.<get-d2>()
+          }
+ /*-> Provider<D2> */))
+          $receiver.put(key = "h1", value = create(a = local fun <anonymous>(): D1 {
+            return <this>.#depsInstance.<get-d1>()
+          }
+ /*-> Provider<D1> */, b = local fun <anonymous>(): D2 {
+            return <this>.#depsInstance.<get-d2>()
+          }
+ /*-> Provider<D2> */, c = local fun <anonymous>(): D3 {
+            return <this>.#depsInstance.<get-d3>()
+          }
+ /*-> Provider<D3> */))
+          $receiver.put(key = "h2", value = create(a = local fun <anonymous>(): D2 {
+            return <this>.#depsInstance.<get-d2>()
+          }
+ /*-> Provider<D2> */, b = local fun <anonymous>(): D3 {
+            return <this>.#depsInstance.<get-d3>()
+          }
+ /*-> Provider<D3> */, c = local fun <anonymous>(): D4 {
+            return <this>.#depsInstance.<get-d4>()
+          }
+ /*-> Provider<D4> */))
+          $receiver.put(key = "h3", value = create(a = local fun <anonymous>(): D3 {
+            return <this>.#depsInstance.<get-d3>()
+          }
+ /*-> Provider<D3> */, b = local fun <anonymous>(): D4 {
+            return <this>.#depsInstance.<get-d4>()
+          }
+ /*-> Provider<D4> */, c = local fun <anonymous>(): D0 {
+            return <this>.#depsInstance.<get-d0>()
+          }
+ /*-> Provider<D0> */))
+          $receiver.put(key = "h4", value = create(a = local fun <anonymous>(): D4 {
+            return <this>.#depsInstance.<get-d4>()
+          }
+ /*-> Provider<D4> */, b = local fun <anonymous>(): D0 {
+            return <this>.#depsInstance.<get-d0>()
+          }
+ /*-> Provider<D0> */, c = local fun <anonymous>(): D1 {
+            return <this>.#depsInstance.<get-d1>()
+          }
+ /*-> Provider<D1> */))
+          $receiver.put(key = "h5", value = create(a = local fun <anonymous>(): D0 {
+            return <this>.#depsInstance.<get-d0>()
+          }
+ /*-> Provider<D0> */, b = local fun <anonymous>(): D1 {
+            return <this>.#depsInstance.<get-d1>()
+          }
+ /*-> Provider<D1> */, c = local fun <anonymous>(): D2 {
+            return <this>.#depsInstance.<get-d2>()
+          }
+ /*-> Provider<D2> */))
+          $receiver.put(key = "h6", value = create(a = local fun <anonymous>(): D1 {
+            return <this>.#depsInstance.<get-d1>()
+          }
+ /*-> Provider<D1> */, b = local fun <anonymous>(): D2 {
+            return <this>.#depsInstance.<get-d2>()
+          }
+ /*-> Provider<D2> */, c = local fun <anonymous>(): D3 {
+            return <this>.#depsInstance.<get-d3>()
+          }
+ /*-> Provider<D3> */))
+          $receiver.put(key = "h7", value = create(a = local fun <anonymous>(): D2 {
+            return <this>.#depsInstance.<get-d2>()
+          }
+ /*-> Provider<D2> */, b = local fun <anonymous>(): D3 {
+            return <this>.#depsInstance.<get-d3>()
+          }
+ /*-> Provider<D3> */, c = local fun <anonymous>(): D4 {
+            return <this>.#depsInstance.<get-d4>()
+          }
+ /*-> Provider<D4> */))
+          $receiver.put(key = "h8", value = create(a = local fun <anonymous>(): D3 {
+            return <this>.#depsInstance.<get-d3>()
+          }
+ /*-> Provider<D3> */, b = local fun <anonymous>(): D4 {
+            return <this>.#depsInstance.<get-d4>()
+          }
+ /*-> Provider<D4> */, c = local fun <anonymous>(): D0 {
+            return <this>.#depsInstance.<get-d0>()
+          }
+ /*-> Provider<D0> */))
+          $receiver.put(key = "h9", value = create(a = local fun <anonymous>(): D4 {
+            return <this>.#depsInstance.<get-d4>()
+          }
+ /*-> Provider<D4> */, b = local fun <anonymous>(): D0 {
+            return <this>.#depsInstance.<get-d0>()
+          }
+ /*-> Provider<D0> */, c = local fun <anonymous>(): D1 {
+            return <this>.#depsInstance.<get-d1>()
+          }
+ /*-> Provider<D1> */))
+        }
+)
+      }
+
+  }
+
+  companion object Companion : Factory {
+    private constructor() /* primary */ {
+      super/*Any*/()
+      /* <init>() */
+
+    }
+
+    @GraphFactoryInvokeFunctionMarker
+    @JvmStatic
+    @JsStatic
+    override fun create(@Includes deps: Deps): AppGraph {
+      return Impl(deps = deps)
+    }
+
+  }
+
+  @DependencyGraph.Factory
+  interface Factory {
+    @Deprecated(message = "This synthesized declaration should not be used directly", level = DeprecationLevel.HIDDEN)
+    @MetroImplMarker
+    object Impl : Factory {
+      private constructor() /* primary */ {
+        super/*Any*/()
+        /* <init>() */
+
+      }
+
+      @GraphFactoryInvokeFunctionMarker
+      override fun create(@Includes deps: Deps): AppGraph {
+        return Impl(deps = deps)
+      }
+
+    }
+
+    abstract fun create(@Includes deps: Deps): AppGraph
+
+  }
+
+  abstract val handlers: Map<String, Provider<Handler>>
+    abstract get
+
+}
+
+interface Deps {
+  abstract val d0: D0
+    abstract get
+
+  abstract val d1: D1
+    abstract get
+
+  abstract val d2: D2
+    abstract get
+
+  abstract val d3: D3
+    abstract get
+
+  abstract val d4: D4
+    abstract get
+
+}
+
+interface Handler {
+}
+
+@BindingContainer
+object HandlerBindings {
+  @Deprecated(message = "This synthesized declaration should not be used directly", level = DeprecationLevel.HIDDEN)
+  @CallableMetadata(callableName = "h0", propertyName = "", startOffset = 1868, endOffset = 1954, newInstanceName = "h0")
+  class H0MetroFactory : Factory<Handler> {
+    private /* final field */ val a: Provider<D0> = a
+    private /* final field */ val b: Provider<D1> = b
+    private /* final field */ val c: Provider<D2> = c
+    companion object Companion {
+      private constructor() /* primary */ {
+        super/*Any*/()
+        /* <init>() */
+
+      }
+
+      @HiddenFromObjC
+      @JvmStatic
+      @JsStatic
+      fun create(a: Provider<D0>, b: Provider<D1>, c: Provider<D2>): H0MetroFactory {
+        return H0MetroFactory(a = a, b = b, c = c)
+      }
+
+      @HiddenFromObjC
+      @JvmStatic
+      @JsStatic
+      fun h0(a: D0, b: D1, c: D2): Handler {
+        return HandlerBindings.h0(a = a, b = b, c = c)
+      }
+
+    }
+
+    @HiddenFromObjC
+    private constructor(a: Provider<D0>, b: Provider<D1>, c: Provider<D2>) /* primary */ {
+      super/*Any*/()
+      /* <init>() */
+
+    }
+
+    @IntoMap
+    @StringKey(value = "h0")
+    @ComptimeOnly
+    @HiddenFromObjC
+    fun declarationMirror(a: D0, b: D1, c: D2): Handler {
+      return error(message = "Never called")
+    }
+
+    @HiddenFromObjC
+    override operator fun invoke(): Handler {
+      return H0MetroFactory/* companion */.h0(a = <this>.#a.invoke(), b = <this>.#b.invoke(), c = <this>.#c.invoke())
+    }
+
+  }
+
+  @Deprecated(message = "This synthesized declaration should not be used directly", level = DeprecationLevel.HIDDEN)
+  @CallableMetadata(callableName = "h10", propertyName = "", startOffset = 2758, endOffset = 2847, newInstanceName = "h10")
+  class H10MetroFactory : Factory<Handler> {
+    private /* final field */ val a: Provider<D0> = a
+    private /* final field */ val b: Provider<D1> = b
+    private /* final field */ val c: Provider<D2> = c
+    companion object Companion {
+      private constructor() /* primary */ {
+        super/*Any*/()
+        /* <init>() */
+
+      }
+
+      @HiddenFromObjC
+      @JvmStatic
+      @JsStatic
+      fun create(a: Provider<D0>, b: Provider<D1>, c: Provider<D2>): H10MetroFactory {
+        return H10MetroFactory(a = a, b = b, c = c)
+      }
+
+      @HiddenFromObjC
+      @JvmStatic
+      @JsStatic
+      fun h10(a: D0, b: D1, c: D2): Handler {
+        return HandlerBindings.h10(a = a, b = b, c = c)
+      }
+
+    }
+
+    @HiddenFromObjC
+    private constructor(a: Provider<D0>, b: Provider<D1>, c: Provider<D2>) /* primary */ {
+      super/*Any*/()
+      /* <init>() */
+
+    }
+
+    @IntoMap
+    @StringKey(value = "h10")
+    @ComptimeOnly
+    @HiddenFromObjC
+    fun declarationMirror(a: D0, b: D1, c: D2): Handler {
+      return error(message = "Never called")
+    }
+
+    @HiddenFromObjC
+    override operator fun invoke(): Handler {
+      return H10MetroFactory/* companion */.h10(a = <this>.#a.invoke(), b = <this>.#b.invoke(), c = <this>.#c.invoke())
+    }
+
+  }
+
+  @Deprecated(message = "This synthesized declaration should not be used directly", level = DeprecationLevel.HIDDEN)
+  @CallableMetadata(callableName = "h11", propertyName = "", startOffset = 2850, endOffset = 2939, newInstanceName = "h11")
+  class H11MetroFactory : Factory<Handler> {
+    private /* final field */ val a: Provider<D1> = a
+    private /* final field */ val b: Provider<D2> = b
+    private /* final field */ val c: Provider<D3> = c
+    companion object Companion {
+      private constructor() /* primary */ {
+        super/*Any*/()
+        /* <init>() */
+
+      }
+
+      @HiddenFromObjC
+      @JvmStatic
+      @JsStatic
+      fun create(a: Provider<D1>, b: Provider<D2>, c: Provider<D3>): H11MetroFactory {
+        return H11MetroFactory(a = a, b = b, c = c)
+      }
+
+      @HiddenFromObjC
+      @JvmStatic
+      @JsStatic
+      fun h11(a: D1, b: D2, c: D3): Handler {
+        return HandlerBindings.h11(a = a, b = b, c = c)
+      }
+
+    }
+
+    @HiddenFromObjC
+    private constructor(a: Provider<D1>, b: Provider<D2>, c: Provider<D3>) /* primary */ {
+      super/*Any*/()
+      /* <init>() */
+
+    }
+
+    @IntoMap
+    @StringKey(value = "h11")
+    @ComptimeOnly
+    @HiddenFromObjC
+    fun declarationMirror(a: D1, b: D2, c: D3): Handler {
+      return error(message = "Never called")
+    }
+
+    @HiddenFromObjC
+    override operator fun invoke(): Handler {
+      return H11MetroFactory/* companion */.h11(a = <this>.#a.invoke(), b = <this>.#b.invoke(), c = <this>.#c.invoke())
+    }
+
+  }
+
+  @Deprecated(message = "This synthesized declaration should not be used directly", level = DeprecationLevel.HIDDEN)
+  @CallableMetadata(callableName = "h12", propertyName = "", startOffset = 2942, endOffset = 3031, newInstanceName = "h12")
+  class H12MetroFactory : Factory<Handler> {
+    private /* final field */ val a: Provider<D2> = a
+    private /* final field */ val b: Provider<D3> = b
+    private /* final field */ val c: Provider<D4> = c
+    companion object Companion {
+      private constructor() /* primary */ {
+        super/*Any*/()
+        /* <init>() */
+
+      }
+
+      @HiddenFromObjC
+      @JvmStatic
+      @JsStatic
+      fun create(a: Provider<D2>, b: Provider<D3>, c: Provider<D4>): H12MetroFactory {
+        return H12MetroFactory(a = a, b = b, c = c)
+      }
+
+      @HiddenFromObjC
+      @JvmStatic
+      @JsStatic
+      fun h12(a: D2, b: D3, c: D4): Handler {
+        return HandlerBindings.h12(a = a, b = b, c = c)
+      }
+
+    }
+
+    @HiddenFromObjC
+    private constructor(a: Provider<D2>, b: Provider<D3>, c: Provider<D4>) /* primary */ {
+      super/*Any*/()
+      /* <init>() */
+
+    }
+
+    @IntoMap
+    @StringKey(value = "h12")
+    @ComptimeOnly
+    @HiddenFromObjC
+    fun declarationMirror(a: D2, b: D3, c: D4): Handler {
+      return error(message = "Never called")
+    }
+
+    @HiddenFromObjC
+    override operator fun invoke(): Handler {
+      return H12MetroFactory/* companion */.h12(a = <this>.#a.invoke(), b = <this>.#b.invoke(), c = <this>.#c.invoke())
+    }
+
+  }
+
+  @Deprecated(message = "This synthesized declaration should not be used directly", level = DeprecationLevel.HIDDEN)
+  @CallableMetadata(callableName = "h13", propertyName = "", startOffset = 3034, endOffset = 3123, newInstanceName = "h13")
+  class H13MetroFactory : Factory<Handler> {
+    private /* final field */ val a: Provider<D3> = a
+    private /* final field */ val b: Provider<D4> = b
+    private /* final field */ val c: Provider<D0> = c
+    companion object Companion {
+      private constructor() /* primary */ {
+        super/*Any*/()
+        /* <init>() */
+
+      }
+
+      @HiddenFromObjC
+      @JvmStatic
+      @JsStatic
+      fun create(a: Provider<D3>, b: Provider<D4>, c: Provider<D0>): H13MetroFactory {
+        return H13MetroFactory(a = a, b = b, c = c)
+      }
+
+      @HiddenFromObjC
+      @JvmStatic
+      @JsStatic
+      fun h13(a: D3, b: D4, c: D0): Handler {
+        return HandlerBindings.h13(a = a, b = b, c = c)
+      }
+
+    }
+
+    @HiddenFromObjC
+    private constructor(a: Provider<D3>, b: Provider<D4>, c: Provider<D0>) /* primary */ {
+      super/*Any*/()
+      /* <init>() */
+
+    }
+
+    @IntoMap
+    @StringKey(value = "h13")
+    @ComptimeOnly
+    @HiddenFromObjC
+    fun declarationMirror(a: D3, b: D4, c: D0): Handler {
+      return error(message = "Never called")
+    }
+
+    @HiddenFromObjC
+    override operator fun invoke(): Handler {
+      return H13MetroFactory/* companion */.h13(a = <this>.#a.invoke(), b = <this>.#b.invoke(), c = <this>.#c.invoke())
+    }
+
+  }
+
+  @Deprecated(message = "This synthesized declaration should not be used directly", level = DeprecationLevel.HIDDEN)
+  @CallableMetadata(callableName = "h14", propertyName = "", startOffset = 3126, endOffset = 3215, newInstanceName = "h14")
+  class H14MetroFactory : Factory<Handler> {
+    private /* final field */ val a: Provider<D4> = a
+    private /* final field */ val b: Provider<D0> = b
+    private /* final field */ val c: Provider<D1> = c
+    companion object Companion {
+      private constructor() /* primary */ {
+        super/*Any*/()
+        /* <init>() */
+
+      }
+
+      @HiddenFromObjC
+      @JvmStatic
+      @JsStatic
+      fun create(a: Provider<D4>, b: Provider<D0>, c: Provider<D1>): H14MetroFactory {
+        return H14MetroFactory(a = a, b = b, c = c)
+      }
+
+      @HiddenFromObjC
+      @JvmStatic
+      @JsStatic
+      fun h14(a: D4, b: D0, c: D1): Handler {
+        return HandlerBindings.h14(a = a, b = b, c = c)
+      }
+
+    }
+
+    @HiddenFromObjC
+    private constructor(a: Provider<D4>, b: Provider<D0>, c: Provider<D1>) /* primary */ {
+      super/*Any*/()
+      /* <init>() */
+
+    }
+
+    @IntoMap
+    @StringKey(value = "h14")
+    @ComptimeOnly
+    @HiddenFromObjC
+    fun declarationMirror(a: D4, b: D0, c: D1): Handler {
+      return error(message = "Never called")
+    }
+
+    @HiddenFromObjC
+    override operator fun invoke(): Handler {
+      return H14MetroFactory/* companion */.h14(a = <this>.#a.invoke(), b = <this>.#b.invoke(), c = <this>.#c.invoke())
+    }
+
+  }
+
+  @Deprecated(message = "This synthesized declaration should not be used directly", level = DeprecationLevel.HIDDEN)
+  @CallableMetadata(callableName = "h15", propertyName = "", startOffset = 3218, endOffset = 3307, newInstanceName = "h15")
+  class H15MetroFactory : Factory<Handler> {
+    private /* final field */ val a: Provider<D0> = a
+    private /* final field */ val b: Provider<D1> = b
+    private /* final field */ val c: Provider<D2> = c
+    companion object Companion {
+      private constructor() /* primary */ {
+        super/*Any*/()
+        /* <init>() */
+
+      }
+
+      @HiddenFromObjC
+      @JvmStatic
+      @JsStatic
+      fun create(a: Provider<D0>, b: Provider<D1>, c: Provider<D2>): H15MetroFactory {
+        return H15MetroFactory(a = a, b = b, c = c)
+      }
+
+      @HiddenFromObjC
+      @JvmStatic
+      @JsStatic
+      fun h15(a: D0, b: D1, c: D2): Handler {
+        return HandlerBindings.h15(a = a, b = b, c = c)
+      }
+
+    }
+
+    @HiddenFromObjC
+    private constructor(a: Provider<D0>, b: Provider<D1>, c: Provider<D2>) /* primary */ {
+      super/*Any*/()
+      /* <init>() */
+
+    }
+
+    @IntoMap
+    @StringKey(value = "h15")
+    @ComptimeOnly
+    @HiddenFromObjC
+    fun declarationMirror(a: D0, b: D1, c: D2): Handler {
+      return error(message = "Never called")
+    }
+
+    @HiddenFromObjC
+    override operator fun invoke(): Handler {
+      return H15MetroFactory/* companion */.h15(a = <this>.#a.invoke(), b = <this>.#b.invoke(), c = <this>.#c.invoke())
+    }
+
+  }
+
+  @Deprecated(message = "This synthesized declaration should not be used directly", level = DeprecationLevel.HIDDEN)
+  @CallableMetadata(callableName = "h16", propertyName = "", startOffset = 3310, endOffset = 3399, newInstanceName = "h16")
+  class H16MetroFactory : Factory<Handler> {
+    private /* final field */ val a: Provider<D1> = a
+    private /* final field */ val b: Provider<D2> = b
+    private /* final field */ val c: Provider<D3> = c
+    companion object Companion {
+      private constructor() /* primary */ {
+        super/*Any*/()
+        /* <init>() */
+
+      }
+
+      @HiddenFromObjC
+      @JvmStatic
+      @JsStatic
+      fun create(a: Provider<D1>, b: Provider<D2>, c: Provider<D3>): H16MetroFactory {
+        return H16MetroFactory(a = a, b = b, c = c)
+      }
+
+      @HiddenFromObjC
+      @JvmStatic
+      @JsStatic
+      fun h16(a: D1, b: D2, c: D3): Handler {
+        return HandlerBindings.h16(a = a, b = b, c = c)
+      }
+
+    }
+
+    @HiddenFromObjC
+    private constructor(a: Provider<D1>, b: Provider<D2>, c: Provider<D3>) /* primary */ {
+      super/*Any*/()
+      /* <init>() */
+
+    }
+
+    @IntoMap
+    @StringKey(value = "h16")
+    @ComptimeOnly
+    @HiddenFromObjC
+    fun declarationMirror(a: D1, b: D2, c: D3): Handler {
+      return error(message = "Never called")
+    }
+
+    @HiddenFromObjC
+    override operator fun invoke(): Handler {
+      return H16MetroFactory/* companion */.h16(a = <this>.#a.invoke(), b = <this>.#b.invoke(), c = <this>.#c.invoke())
+    }
+
+  }
+
+  @Deprecated(message = "This synthesized declaration should not be used directly", level = DeprecationLevel.HIDDEN)
+  @CallableMetadata(callableName = "h17", propertyName = "", startOffset = 3402, endOffset = 3491, newInstanceName = "h17")
+  class H17MetroFactory : Factory<Handler> {
+    private /* final field */ val a: Provider<D2> = a
+    private /* final field */ val b: Provider<D3> = b
+    private /* final field */ val c: Provider<D4> = c
+    companion object Companion {
+      private constructor() /* primary */ {
+        super/*Any*/()
+        /* <init>() */
+
+      }
+
+      @HiddenFromObjC
+      @JvmStatic
+      @JsStatic
+      fun create(a: Provider<D2>, b: Provider<D3>, c: Provider<D4>): H17MetroFactory {
+        return H17MetroFactory(a = a, b = b, c = c)
+      }
+
+      @HiddenFromObjC
+      @JvmStatic
+      @JsStatic
+      fun h17(a: D2, b: D3, c: D4): Handler {
+        return HandlerBindings.h17(a = a, b = b, c = c)
+      }
+
+    }
+
+    @HiddenFromObjC
+    private constructor(a: Provider<D2>, b: Provider<D3>, c: Provider<D4>) /* primary */ {
+      super/*Any*/()
+      /* <init>() */
+
+    }
+
+    @IntoMap
+    @StringKey(value = "h17")
+    @ComptimeOnly
+    @HiddenFromObjC
+    fun declarationMirror(a: D2, b: D3, c: D4): Handler {
+      return error(message = "Never called")
+    }
+
+    @HiddenFromObjC
+    override operator fun invoke(): Handler {
+      return H17MetroFactory/* companion */.h17(a = <this>.#a.invoke(), b = <this>.#b.invoke(), c = <this>.#c.invoke())
+    }
+
+  }
+
+  @Deprecated(message = "This synthesized declaration should not be used directly", level = DeprecationLevel.HIDDEN)
+  @CallableMetadata(callableName = "h18", propertyName = "", startOffset = 3494, endOffset = 3583, newInstanceName = "h18")
+  class H18MetroFactory : Factory<Handler> {
+    private /* final field */ val a: Provider<D3> = a
+    private /* final field */ val b: Provider<D4> = b
+    private /* final field */ val c: Provider<D0> = c
+    companion object Companion {
+      private constructor() /* primary */ {
+        super/*Any*/()
+        /* <init>() */
+
+      }
+
+      @HiddenFromObjC
+      @JvmStatic
+      @JsStatic
+      fun create(a: Provider<D3>, b: Provider<D4>, c: Provider<D0>): H18MetroFactory {
+        return H18MetroFactory(a = a, b = b, c = c)
+      }
+
+      @HiddenFromObjC
+      @JvmStatic
+      @JsStatic
+      fun h18(a: D3, b: D4, c: D0): Handler {
+        return HandlerBindings.h18(a = a, b = b, c = c)
+      }
+
+    }
+
+    @HiddenFromObjC
+    private constructor(a: Provider<D3>, b: Provider<D4>, c: Provider<D0>) /* primary */ {
+      super/*Any*/()
+      /* <init>() */
+
+    }
+
+    @IntoMap
+    @StringKey(value = "h18")
+    @ComptimeOnly
+    @HiddenFromObjC
+    fun declarationMirror(a: D3, b: D4, c: D0): Handler {
+      return error(message = "Never called")
+    }
+
+    @HiddenFromObjC
+    override operator fun invoke(): Handler {
+      return H18MetroFactory/* companion */.h18(a = <this>.#a.invoke(), b = <this>.#b.invoke(), c = <this>.#c.invoke())
+    }
+
+  }
+
+  @Deprecated(message = "This synthesized declaration should not be used directly", level = DeprecationLevel.HIDDEN)
+  @CallableMetadata(callableName = "h19", propertyName = "", startOffset = 3586, endOffset = 3675, newInstanceName = "h19")
+  class H19MetroFactory : Factory<Handler> {
+    private /* final field */ val a: Provider<D4> = a
+    private /* final field */ val b: Provider<D0> = b
+    private /* final field */ val c: Provider<D1> = c
+    companion object Companion {
+      private constructor() /* primary */ {
+        super/*Any*/()
+        /* <init>() */
+
+      }
+
+      @HiddenFromObjC
+      @JvmStatic
+      @JsStatic
+      fun create(a: Provider<D4>, b: Provider<D0>, c: Provider<D1>): H19MetroFactory {
+        return H19MetroFactory(a = a, b = b, c = c)
+      }
+
+      @HiddenFromObjC
+      @JvmStatic
+      @JsStatic
+      fun h19(a: D4, b: D0, c: D1): Handler {
+        return HandlerBindings.h19(a = a, b = b, c = c)
+      }
+
+    }
+
+    @HiddenFromObjC
+    private constructor(a: Provider<D4>, b: Provider<D0>, c: Provider<D1>) /* primary */ {
+      super/*Any*/()
+      /* <init>() */
+
+    }
+
+    @IntoMap
+    @StringKey(value = "h19")
+    @ComptimeOnly
+    @HiddenFromObjC
+    fun declarationMirror(a: D4, b: D0, c: D1): Handler {
+      return error(message = "Never called")
+    }
+
+    @HiddenFromObjC
+    override operator fun invoke(): Handler {
+      return H19MetroFactory/* companion */.h19(a = <this>.#a.invoke(), b = <this>.#b.invoke(), c = <this>.#c.invoke())
+    }
+
+  }
+
+  @Deprecated(message = "This synthesized declaration should not be used directly", level = DeprecationLevel.HIDDEN)
+  @CallableMetadata(callableName = "h1", propertyName = "", startOffset = 1957, endOffset = 2043, newInstanceName = "h1")
+  class H1MetroFactory : Factory<Handler> {
+    private /* final field */ val a: Provider<D1> = a
+    private /* final field */ val b: Provider<D2> = b
+    private /* final field */ val c: Provider<D3> = c
+    companion object Companion {
+      private constructor() /* primary */ {
+        super/*Any*/()
+        /* <init>() */
+
+      }
+
+      @HiddenFromObjC
+      @JvmStatic
+      @JsStatic
+      fun create(a: Provider<D1>, b: Provider<D2>, c: Provider<D3>): H1MetroFactory {
+        return H1MetroFactory(a = a, b = b, c = c)
+      }
+
+      @HiddenFromObjC
+      @JvmStatic
+      @JsStatic
+      fun h1(a: D1, b: D2, c: D3): Handler {
+        return HandlerBindings.h1(a = a, b = b, c = c)
+      }
+
+    }
+
+    @HiddenFromObjC
+    private constructor(a: Provider<D1>, b: Provider<D2>, c: Provider<D3>) /* primary */ {
+      super/*Any*/()
+      /* <init>() */
+
+    }
+
+    @IntoMap
+    @StringKey(value = "h1")
+    @ComptimeOnly
+    @HiddenFromObjC
+    fun declarationMirror(a: D1, b: D2, c: D3): Handler {
+      return error(message = "Never called")
+    }
+
+    @HiddenFromObjC
+    override operator fun invoke(): Handler {
+      return H1MetroFactory/* companion */.h1(a = <this>.#a.invoke(), b = <this>.#b.invoke(), c = <this>.#c.invoke())
+    }
+
+  }
+
+  @Deprecated(message = "This synthesized declaration should not be used directly", level = DeprecationLevel.HIDDEN)
+  @CallableMetadata(callableName = "h2", propertyName = "", startOffset = 2046, endOffset = 2132, newInstanceName = "h2")
+  class H2MetroFactory : Factory<Handler> {
+    private /* final field */ val a: Provider<D2> = a
+    private /* final field */ val b: Provider<D3> = b
+    private /* final field */ val c: Provider<D4> = c
+    companion object Companion {
+      private constructor() /* primary */ {
+        super/*Any*/()
+        /* <init>() */
+
+      }
+
+      @HiddenFromObjC
+      @JvmStatic
+      @JsStatic
+      fun create(a: Provider<D2>, b: Provider<D3>, c: Provider<D4>): H2MetroFactory {
+        return H2MetroFactory(a = a, b = b, c = c)
+      }
+
+      @HiddenFromObjC
+      @JvmStatic
+      @JsStatic
+      fun h2(a: D2, b: D3, c: D4): Handler {
+        return HandlerBindings.h2(a = a, b = b, c = c)
+      }
+
+    }
+
+    @HiddenFromObjC
+    private constructor(a: Provider<D2>, b: Provider<D3>, c: Provider<D4>) /* primary */ {
+      super/*Any*/()
+      /* <init>() */
+
+    }
+
+    @IntoMap
+    @StringKey(value = "h2")
+    @ComptimeOnly
+    @HiddenFromObjC
+    fun declarationMirror(a: D2, b: D3, c: D4): Handler {
+      return error(message = "Never called")
+    }
+
+    @HiddenFromObjC
+    override operator fun invoke(): Handler {
+      return H2MetroFactory/* companion */.h2(a = <this>.#a.invoke(), b = <this>.#b.invoke(), c = <this>.#c.invoke())
+    }
+
+  }
+
+  @Deprecated(message = "This synthesized declaration should not be used directly", level = DeprecationLevel.HIDDEN)
+  @CallableMetadata(callableName = "h3", propertyName = "", startOffset = 2135, endOffset = 2221, newInstanceName = "h3")
+  class H3MetroFactory : Factory<Handler> {
+    private /* final field */ val a: Provider<D3> = a
+    private /* final field */ val b: Provider<D4> = b
+    private /* final field */ val c: Provider<D0> = c
+    companion object Companion {
+      private constructor() /* primary */ {
+        super/*Any*/()
+        /* <init>() */
+
+      }
+
+      @HiddenFromObjC
+      @JvmStatic
+      @JsStatic
+      fun create(a: Provider<D3>, b: Provider<D4>, c: Provider<D0>): H3MetroFactory {
+        return H3MetroFactory(a = a, b = b, c = c)
+      }
+
+      @HiddenFromObjC
+      @JvmStatic
+      @JsStatic
+      fun h3(a: D3, b: D4, c: D0): Handler {
+        return HandlerBindings.h3(a = a, b = b, c = c)
+      }
+
+    }
+
+    @HiddenFromObjC
+    private constructor(a: Provider<D3>, b: Provider<D4>, c: Provider<D0>) /* primary */ {
+      super/*Any*/()
+      /* <init>() */
+
+    }
+
+    @IntoMap
+    @StringKey(value = "h3")
+    @ComptimeOnly
+    @HiddenFromObjC
+    fun declarationMirror(a: D3, b: D4, c: D0): Handler {
+      return error(message = "Never called")
+    }
+
+    @HiddenFromObjC
+    override operator fun invoke(): Handler {
+      return H3MetroFactory/* companion */.h3(a = <this>.#a.invoke(), b = <this>.#b.invoke(), c = <this>.#c.invoke())
+    }
+
+  }
+
+  @Deprecated(message = "This synthesized declaration should not be used directly", level = DeprecationLevel.HIDDEN)
+  @CallableMetadata(callableName = "h4", propertyName = "", startOffset = 2224, endOffset = 2310, newInstanceName = "h4")
+  class H4MetroFactory : Factory<Handler> {
+    private /* final field */ val a: Provider<D4> = a
+    private /* final field */ val b: Provider<D0> = b
+    private /* final field */ val c: Provider<D1> = c
+    companion object Companion {
+      private constructor() /* primary */ {
+        super/*Any*/()
+        /* <init>() */
+
+      }
+
+      @HiddenFromObjC
+      @JvmStatic
+      @JsStatic
+      fun create(a: Provider<D4>, b: Provider<D0>, c: Provider<D1>): H4MetroFactory {
+        return H4MetroFactory(a = a, b = b, c = c)
+      }
+
+      @HiddenFromObjC
+      @JvmStatic
+      @JsStatic
+      fun h4(a: D4, b: D0, c: D1): Handler {
+        return HandlerBindings.h4(a = a, b = b, c = c)
+      }
+
+    }
+
+    @HiddenFromObjC
+    private constructor(a: Provider<D4>, b: Provider<D0>, c: Provider<D1>) /* primary */ {
+      super/*Any*/()
+      /* <init>() */
+
+    }
+
+    @IntoMap
+    @StringKey(value = "h4")
+    @ComptimeOnly
+    @HiddenFromObjC
+    fun declarationMirror(a: D4, b: D0, c: D1): Handler {
+      return error(message = "Never called")
+    }
+
+    @HiddenFromObjC
+    override operator fun invoke(): Handler {
+      return H4MetroFactory/* companion */.h4(a = <this>.#a.invoke(), b = <this>.#b.invoke(), c = <this>.#c.invoke())
+    }
+
+  }
+
+  @Deprecated(message = "This synthesized declaration should not be used directly", level = DeprecationLevel.HIDDEN)
+  @CallableMetadata(callableName = "h5", propertyName = "", startOffset = 2313, endOffset = 2399, newInstanceName = "h5")
+  class H5MetroFactory : Factory<Handler> {
+    private /* final field */ val a: Provider<D0> = a
+    private /* final field */ val b: Provider<D1> = b
+    private /* final field */ val c: Provider<D2> = c
+    companion object Companion {
+      private constructor() /* primary */ {
+        super/*Any*/()
+        /* <init>() */
+
+      }
+
+      @HiddenFromObjC
+      @JvmStatic
+      @JsStatic
+      fun create(a: Provider<D0>, b: Provider<D1>, c: Provider<D2>): H5MetroFactory {
+        return H5MetroFactory(a = a, b = b, c = c)
+      }
+
+      @HiddenFromObjC
+      @JvmStatic
+      @JsStatic
+      fun h5(a: D0, b: D1, c: D2): Handler {
+        return HandlerBindings.h5(a = a, b = b, c = c)
+      }
+
+    }
+
+    @HiddenFromObjC
+    private constructor(a: Provider<D0>, b: Provider<D1>, c: Provider<D2>) /* primary */ {
+      super/*Any*/()
+      /* <init>() */
+
+    }
+
+    @IntoMap
+    @StringKey(value = "h5")
+    @ComptimeOnly
+    @HiddenFromObjC
+    fun declarationMirror(a: D0, b: D1, c: D2): Handler {
+      return error(message = "Never called")
+    }
+
+    @HiddenFromObjC
+    override operator fun invoke(): Handler {
+      return H5MetroFactory/* companion */.h5(a = <this>.#a.invoke(), b = <this>.#b.invoke(), c = <this>.#c.invoke())
+    }
+
+  }
+
+  @Deprecated(message = "This synthesized declaration should not be used directly", level = DeprecationLevel.HIDDEN)
+  @CallableMetadata(callableName = "h6", propertyName = "", startOffset = 2402, endOffset = 2488, newInstanceName = "h6")
+  class H6MetroFactory : Factory<Handler> {
+    private /* final field */ val a: Provider<D1> = a
+    private /* final field */ val b: Provider<D2> = b
+    private /* final field */ val c: Provider<D3> = c
+    companion object Companion {
+      private constructor() /* primary */ {
+        super/*Any*/()
+        /* <init>() */
+
+      }
+
+      @HiddenFromObjC
+      @JvmStatic
+      @JsStatic
+      fun create(a: Provider<D1>, b: Provider<D2>, c: Provider<D3>): H6MetroFactory {
+        return H6MetroFactory(a = a, b = b, c = c)
+      }
+
+      @HiddenFromObjC
+      @JvmStatic
+      @JsStatic
+      fun h6(a: D1, b: D2, c: D3): Handler {
+        return HandlerBindings.h6(a = a, b = b, c = c)
+      }
+
+    }
+
+    @HiddenFromObjC
+    private constructor(a: Provider<D1>, b: Provider<D2>, c: Provider<D3>) /* primary */ {
+      super/*Any*/()
+      /* <init>() */
+
+    }
+
+    @IntoMap
+    @StringKey(value = "h6")
+    @ComptimeOnly
+    @HiddenFromObjC
+    fun declarationMirror(a: D1, b: D2, c: D3): Handler {
+      return error(message = "Never called")
+    }
+
+    @HiddenFromObjC
+    override operator fun invoke(): Handler {
+      return H6MetroFactory/* companion */.h6(a = <this>.#a.invoke(), b = <this>.#b.invoke(), c = <this>.#c.invoke())
+    }
+
+  }
+
+  @Deprecated(message = "This synthesized declaration should not be used directly", level = DeprecationLevel.HIDDEN)
+  @CallableMetadata(callableName = "h7", propertyName = "", startOffset = 2491, endOffset = 2577, newInstanceName = "h7")
+  class H7MetroFactory : Factory<Handler> {
+    private /* final field */ val a: Provider<D2> = a
+    private /* final field */ val b: Provider<D3> = b
+    private /* final field */ val c: Provider<D4> = c
+    companion object Companion {
+      private constructor() /* primary */ {
+        super/*Any*/()
+        /* <init>() */
+
+      }
+
+      @HiddenFromObjC
+      @JvmStatic
+      @JsStatic
+      fun create(a: Provider<D2>, b: Provider<D3>, c: Provider<D4>): H7MetroFactory {
+        return H7MetroFactory(a = a, b = b, c = c)
+      }
+
+      @HiddenFromObjC
+      @JvmStatic
+      @JsStatic
+      fun h7(a: D2, b: D3, c: D4): Handler {
+        return HandlerBindings.h7(a = a, b = b, c = c)
+      }
+
+    }
+
+    @HiddenFromObjC
+    private constructor(a: Provider<D2>, b: Provider<D3>, c: Provider<D4>) /* primary */ {
+      super/*Any*/()
+      /* <init>() */
+
+    }
+
+    @IntoMap
+    @StringKey(value = "h7")
+    @ComptimeOnly
+    @HiddenFromObjC
+    fun declarationMirror(a: D2, b: D3, c: D4): Handler {
+      return error(message = "Never called")
+    }
+
+    @HiddenFromObjC
+    override operator fun invoke(): Handler {
+      return H7MetroFactory/* companion */.h7(a = <this>.#a.invoke(), b = <this>.#b.invoke(), c = <this>.#c.invoke())
+    }
+
+  }
+
+  @Deprecated(message = "This synthesized declaration should not be used directly", level = DeprecationLevel.HIDDEN)
+  @CallableMetadata(callableName = "h8", propertyName = "", startOffset = 2580, endOffset = 2666, newInstanceName = "h8")
+  class H8MetroFactory : Factory<Handler> {
+    private /* final field */ val a: Provider<D3> = a
+    private /* final field */ val b: Provider<D4> = b
+    private /* final field */ val c: Provider<D0> = c
+    companion object Companion {
+      private constructor() /* primary */ {
+        super/*Any*/()
+        /* <init>() */
+
+      }
+
+      @HiddenFromObjC
+      @JvmStatic
+      @JsStatic
+      fun create(a: Provider<D3>, b: Provider<D4>, c: Provider<D0>): H8MetroFactory {
+        return H8MetroFactory(a = a, b = b, c = c)
+      }
+
+      @HiddenFromObjC
+      @JvmStatic
+      @JsStatic
+      fun h8(a: D3, b: D4, c: D0): Handler {
+        return HandlerBindings.h8(a = a, b = b, c = c)
+      }
+
+    }
+
+    @HiddenFromObjC
+    private constructor(a: Provider<D3>, b: Provider<D4>, c: Provider<D0>) /* primary */ {
+      super/*Any*/()
+      /* <init>() */
+
+    }
+
+    @IntoMap
+    @StringKey(value = "h8")
+    @ComptimeOnly
+    @HiddenFromObjC
+    fun declarationMirror(a: D3, b: D4, c: D0): Handler {
+      return error(message = "Never called")
+    }
+
+    @HiddenFromObjC
+    override operator fun invoke(): Handler {
+      return H8MetroFactory/* companion */.h8(a = <this>.#a.invoke(), b = <this>.#b.invoke(), c = <this>.#c.invoke())
+    }
+
+  }
+
+  @Deprecated(message = "This synthesized declaration should not be used directly", level = DeprecationLevel.HIDDEN)
+  @CallableMetadata(callableName = "h9", propertyName = "", startOffset = 2669, endOffset = 2755, newInstanceName = "h9")
+  class H9MetroFactory : Factory<Handler> {
+    private /* final field */ val a: Provider<D4> = a
+    private /* final field */ val b: Provider<D0> = b
+    private /* final field */ val c: Provider<D1> = c
+    companion object Companion {
+      private constructor() /* primary */ {
+        super/*Any*/()
+        /* <init>() */
+
+      }
+
+      @HiddenFromObjC
+      @JvmStatic
+      @JsStatic
+      fun create(a: Provider<D4>, b: Provider<D0>, c: Provider<D1>): H9MetroFactory {
+        return H9MetroFactory(a = a, b = b, c = c)
+      }
+
+      @HiddenFromObjC
+      @JvmStatic
+      @JsStatic
+      fun h9(a: D4, b: D0, c: D1): Handler {
+        return HandlerBindings.h9(a = a, b = b, c = c)
+      }
+
+    }
+
+    @HiddenFromObjC
+    private constructor(a: Provider<D4>, b: Provider<D0>, c: Provider<D1>) /* primary */ {
+      super/*Any*/()
+      /* <init>() */
+
+    }
+
+    @IntoMap
+    @StringKey(value = "h9")
+    @ComptimeOnly
+    @HiddenFromObjC
+    fun declarationMirror(a: D4, b: D0, c: D1): Handler {
+      return error(message = "Never called")
+    }
+
+    @HiddenFromObjC
+    override operator fun invoke(): Handler {
+      return H9MetroFactory/* companion */.h9(a = <this>.#a.invoke(), b = <this>.#b.invoke(), c = <this>.#c.invoke())
+    }
+
+  }
+
+  private constructor() /* primary */ {
+    super/*Any*/()
+    /* <init>() */
+
+  }
+
+  @Provides
+  @IntoMap
+  @StringKey(value = "h0")
+  fun h0(a: D0, b: D1, c: D2): Handler {
+    return H0(a = a, b = b, c = c)
+  }
+
+  @Provides
+  @IntoMap
+  @StringKey(value = "h1")
+  fun h1(a: D1, b: D2, c: D3): Handler {
+    return H1(a = a, b = b, c = c)
+  }
+
+  @Provides
+  @IntoMap
+  @StringKey(value = "h10")
+  fun h10(a: D0, b: D1, c: D2): Handler {
+    return H10(a = a, b = b, c = c)
+  }
+
+  @Provides
+  @IntoMap
+  @StringKey(value = "h11")
+  fun h11(a: D1, b: D2, c: D3): Handler {
+    return H11(a = a, b = b, c = c)
+  }
+
+  @Provides
+  @IntoMap
+  @StringKey(value = "h12")
+  fun h12(a: D2, b: D3, c: D4): Handler {
+    return H12(a = a, b = b, c = c)
+  }
+
+  @Provides
+  @IntoMap
+  @StringKey(value = "h13")
+  fun h13(a: D3, b: D4, c: D0): Handler {
+    return H13(a = a, b = b, c = c)
+  }
+
+  @Provides
+  @IntoMap
+  @StringKey(value = "h14")
+  fun h14(a: D4, b: D0, c: D1): Handler {
+    return H14(a = a, b = b, c = c)
+  }
+
+  @Provides
+  @IntoMap
+  @StringKey(value = "h15")
+  fun h15(a: D0, b: D1, c: D2): Handler {
+    return H15(a = a, b = b, c = c)
+  }
+
+  @Provides
+  @IntoMap
+  @StringKey(value = "h16")
+  fun h16(a: D1, b: D2, c: D3): Handler {
+    return H16(a = a, b = b, c = c)
+  }
+
+  @Provides
+  @IntoMap
+  @StringKey(value = "h17")
+  fun h17(a: D2, b: D3, c: D4): Handler {
+    return H17(a = a, b = b, c = c)
+  }
+
+  @Provides
+  @IntoMap
+  @StringKey(value = "h18")
+  fun h18(a: D3, b: D4, c: D0): Handler {
+    return H18(a = a, b = b, c = c)
+  }
+
+  @Provides
+  @IntoMap
+  @StringKey(value = "h19")
+  fun h19(a: D4, b: D0, c: D1): Handler {
+    return H19(a = a, b = b, c = c)
+  }
+
+  @Provides
+  @IntoMap
+  @StringKey(value = "h2")
+  fun h2(a: D2, b: D3, c: D4): Handler {
+    return H2(a = a, b = b, c = c)
+  }
+
+  @Provides
+  @IntoMap
+  @StringKey(value = "h3")
+  fun h3(a: D3, b: D4, c: D0): Handler {
+    return H3(a = a, b = b, c = c)
+  }
+
+  @Provides
+  @IntoMap
+  @StringKey(value = "h4")
+  fun h4(a: D4, b: D0, c: D1): Handler {
+    return H4(a = a, b = b, c = c)
+  }
+
+  @Provides
+  @IntoMap
+  @StringKey(value = "h5")
+  fun h5(a: D0, b: D1, c: D2): Handler {
+    return H5(a = a, b = b, c = c)
+  }
+
+  @Provides
+  @IntoMap
+  @StringKey(value = "h6")
+  fun h6(a: D1, b: D2, c: D3): Handler {
+    return H6(a = a, b = b, c = c)
+  }
+
+  @Provides
+  @IntoMap
+  @StringKey(value = "h7")
+  fun h7(a: D2, b: D3, c: D4): Handler {
+    return H7(a = a, b = b, c = c)
+  }
+
+  @Provides
+  @IntoMap
+  @StringKey(value = "h8")
+  fun h8(a: D3, b: D4, c: D0): Handler {
+    return H8(a = a, b = b, c = c)
+  }
+
+  @Provides
+  @IntoMap
+  @StringKey(value = "h9")
+  fun h9(a: D4, b: D0, c: D1): Handler {
+    return H9(a = a, b = b, c = c)
+  }
+
+}

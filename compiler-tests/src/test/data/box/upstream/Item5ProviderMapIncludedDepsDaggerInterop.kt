@@ -97,6 +97,6 @@ fun box(): String {
     override val d3 = D3()
     override val d4 = D4()
   })
-  alloc("DaggerInterop") { g.handlers }
+  alloc("javax Provider, 20 entries") { g.handlers }
   return "OK"
 }
