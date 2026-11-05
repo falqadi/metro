@@ -874,6 +874,50 @@ public class IrDumpTestGenerated extends AbstractIrDumpTest {
   }
 
   @Nested
+  @TestMetadata("compiler-tests/src/test/data/dump/ir/upstream")
+  @TestDataPath("$PROJECT_ROOT")
+  public class Upstream {
+    private void run(String fileName) {
+      runTest("compiler-tests/src/test/data/dump/ir/upstream/" + fileName);
+    }
+
+    @Test
+    public void testAllFilesPresentInUpstream() {
+      KtTestUtil.assertAllTestsPresentByMetadataWithExcluded(this.getClass(), new File("compiler-tests/src/test/data/dump/ir/upstream"), Pattern.compile("^(.+)\\.kt$"), null, true);
+    }
+
+    @Test
+    @TestMetadata("M1ProvidedMapWithProviderValues.kt")
+    public void testM1ProvidedMapWithProviderValues() {
+      run("M1ProvidedMapWithProviderValues.kt");
+    }
+
+    @Test
+    @TestMetadata("M2ProviderAccessorOfUnscoped.kt")
+    public void testM2ProviderAccessorOfUnscoped() {
+      run("M2ProviderAccessorOfUnscoped.kt");
+    }
+
+    @Test
+    @TestMetadata("M3ProvidedMapWithPlainValues.kt")
+    public void testM3ProvidedMapWithPlainValues() {
+      run("M3ProvidedMapWithPlainValues.kt");
+    }
+
+    @Test
+    @TestMetadata("M4ProvidedMapWithProviderValuesAndPlainAccessor.kt")
+    public void testM4ProvidedMapWithProviderValuesAndPlainAccessor() {
+      run("M4ProvidedMapWithProviderValuesAndPlainAccessor.kt");
+    }
+
+    @Test
+    @TestMetadata("M5ProvidedMapWithProviderValuesAndRegistryDependentAccessor.kt")
+    public void testM5ProvidedMapWithProviderValuesAndRegistryDependentAccessor() {
+      run("M5ProvidedMapWithProviderValuesAndRegistryDependentAccessor.kt");
+    }
+  }
+
+  @Nested
   @TestMetadata("compiler-tests/src/test/data/dump/ir/visibility")
   @TestDataPath("$PROJECT_ROOT")
   public class Visibility {

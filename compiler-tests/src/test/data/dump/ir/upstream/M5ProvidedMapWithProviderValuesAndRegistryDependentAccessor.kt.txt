@@ -1,0 +1,231 @@
+class Foo {
+  val registry: Registry
+    field = registry
+    get
+
+  constructor(registry: Registry) /* primary */ {
+    super/*Any*/()
+    /* <init>() */
+
+  }
+
+}
+
+class Registry {
+  constructor() /* primary */ {
+    super/*Any*/()
+    /* <init>() */
+
+  }
+
+}
+
+@DependencyGraph(scope = AppScope::class, bindingContainers = [Bindings::class])
+interface AppGraph {
+  @Deprecated(message = "This synthesized declaration should not be used directly", level = DeprecationLevel.HIDDEN)
+  @MetroImplMarker
+  class Impl : AppGraph {
+    private val registryProvider: Provider<Registry>
+      field = provider<Provider<Registry>, Registry>(delegate = create())
+
+    private constructor() /* primary */ {
+      super/*Any*/()
+      /* <init>() */
+
+    }
+
+    override val foo: Foo
+      override get(): Foo {
+        return Bindings.foo(registry = <this>.#registryProvider.invoke())
+      }
+
+    override val fooMap: Map<String, Provider<Foo>>
+      override get(): Map<String, Provider<Foo>> {
+        return Bindings.fooMap(registry = <this>.#registryProvider.invoke())
+      }
+
+  }
+
+  companion object Companion {
+    private constructor() /* primary */ {
+      super/*Any*/()
+      /* <init>() */
+
+    }
+
+    @GraphFactoryInvokeFunctionMarker
+    @JvmStatic
+    @JsStatic
+    operator fun invoke(): AppGraph {
+      return Impl()
+    }
+
+  }
+
+  abstract val foo: Foo
+    abstract get
+
+  abstract val fooMap: Map<String, Provider<Foo>>
+    abstract get
+
+}
+
+@BindingContainer
+object Bindings {
+  @Deprecated(message = "This synthesized declaration should not be used directly", level = DeprecationLevel.HIDDEN)
+  @CallableMetadata(callableName = "fooMap", propertyName = "", startOffset = 220, endOffset = 331, newInstanceName = "fooMap")
+  class FooMapMetroFactory : Factory<Map<String, Foo>> {
+    private /* final field */ val registry: Provider<Registry> = registry
+    companion object Companion {
+      private constructor() /* primary */ {
+        super/*Any*/()
+        /* <init>() */
+
+      }
+
+      @HiddenFromObjC
+      @JvmStatic
+      @JsStatic
+      fun create(registry: Provider<Registry>): FooMapMetroFactory {
+        return FooMapMetroFactory(registry = registry)
+      }
+
+      @HiddenFromObjC
+      @JvmStatic
+      @JsStatic
+      fun fooMap(registry: Registry): Map<String, Provider<Foo>> {
+        return Bindings.fooMap(registry = registry)
+      }
+
+    }
+
+    @HiddenFromObjC
+    private constructor(registry: Provider<Registry>) /* primary */ {
+      super/*Any*/()
+      /* <init>() */
+
+    }
+
+    @ComptimeOnly
+    @HiddenFromObjC
+    fun declarationMirror(registry: Registry): Map<String, Provider<Foo>> {
+      return error(message = "Never called")
+    }
+
+    @HiddenFromObjC
+    override operator fun invoke(): Map<String, Foo> {
+      return FooMapMetroFactory/* companion */.fooMap(registry = <this>.#registry.invoke())
+    }
+
+  }
+
+  @Deprecated(message = "This synthesized declaration should not be used directly", level = DeprecationLevel.HIDDEN)
+  @CallableMetadata(callableName = "foo", propertyName = "", startOffset = 334, endOffset = 392, newInstanceName = "foo")
+  class FooMetroFactory : Factory<Foo> {
+    private /* final field */ val registry: Provider<Registry> = registry
+    companion object Companion {
+      private constructor() /* primary */ {
+        super/*Any*/()
+        /* <init>() */
+
+      }
+
+      @HiddenFromObjC
+      @JvmStatic
+      @JsStatic
+      fun create(registry: Provider<Registry>): FooMetroFactory {
+        return FooMetroFactory(registry = registry)
+      }
+
+      @HiddenFromObjC
+      @JvmStatic
+      @JsStatic
+      fun foo(registry: Registry): Foo {
+        return Bindings.foo(registry = registry)
+      }
+
+    }
+
+    @HiddenFromObjC
+    private constructor(registry: Provider<Registry>) /* primary */ {
+      super/*Any*/()
+      /* <init>() */
+
+    }
+
+    @ComptimeOnly
+    @HiddenFromObjC
+    fun declarationMirror(registry: Registry): Foo {
+      return error(message = "Never called")
+    }
+
+    @HiddenFromObjC
+    override operator fun invoke(): Foo {
+      return FooMetroFactory/* companion */.foo(registry = <this>.#registry.invoke())
+    }
+
+  }
+
+  @Deprecated(message = "This synthesized declaration should not be used directly", level = DeprecationLevel.HIDDEN)
+  @CallableMetadata(callableName = "registry", propertyName = "", startOffset = 143, endOffset = 217, newInstanceName = "registry")
+  object RegistryMetroFactory : Factory<Registry> {
+    private constructor() /* primary */ {
+      super/*Any*/()
+      /* <init>() */
+
+    }
+
+    @HiddenFromObjC
+    @JvmStatic
+    @JsStatic
+    fun create(): RegistryMetroFactory {
+      return RegistryMetroFactory
+    }
+
+    @HiddenFromObjC
+    @JvmStatic
+    @JsStatic
+    fun registry(): Registry {
+      return Bindings.registry()
+    }
+
+    @SingleIn(scope = AppScope::class)
+    @ComptimeOnly
+    @HiddenFromObjC
+    fun declarationMirror(): Registry {
+      return error(message = "Never called")
+    }
+
+    @HiddenFromObjC
+    override operator fun invoke(): Registry {
+      return RegistryMetroFactory.registry()
+    }
+
+  }
+
+  private constructor() /* primary */ {
+    super/*Any*/()
+    /* <init>() */
+
+  }
+
+  @Provides
+  fun foo(registry: Registry): Foo {
+    return Foo(registry = registry)
+  }
+
+  @Provides
+  fun fooMap(registry: Registry): Map<String, Provider<Foo>> {
+    return mapOf<String, Provider<Foo>>(pair = to<String, Provider<Foo>>(/* <this> = "a", */ that = local fun <anonymous>(): Foo {
+      return Foo(registry = registry)
+    }
+ /*-> Provider<Foo> */))
+  }
+
+  @SingleIn(scope = AppScope::class)
+  @Provides
+  fun registry(): Registry {
+    return Registry()
+  }
+
+}
