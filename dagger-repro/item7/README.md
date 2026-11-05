@@ -1,6 +1,6 @@
 # item7: Dagger reproducer for "a provided Map<Class<*>, V> throws a ClassCastException with KClass interop"
 
-Metro side: the box tests `compiler-tests/src/test/data/box/upstream/K*.kt`, run with the directives `ENABLE_KCLASS_TO_CLASS_INTEROP` and `ENABLE_DAGGER_INTEROP`, and the dump tests `compiler-tests/src/test/data/dump/ir/upstream/K1*.kt` and `K2*.kt` on this branch. K1, K4, K5 and K6 fail on the 4 JVM variants with `ClassCastException: class java.lang.Class cannot be cast to class kotlin.reflect.KClass`. K2 and K3 are controls and pass.
+Metro side: the box tests `compiler-tests/src/test/data/box/upstream/K*.kt`, run with the directives `ENABLE_KCLASS_TO_CLASS_INTEROP` and `ENABLE_DAGGER_INTEROP`, and the dump tests `compiler-tests/src/test/data/dump/ir/upstream/K1*.kt` and `K2*.kt` on this branch. K1, K4, K5 and K6 fail on the 4 JVM variants with a `ClassCastException`. The first lines of K1's failure are in `results/metro-box.txt`. K2 and K3 are controls and pass.
 
 The Dagger fixture, `src/main/java/repro/Fixtures.java`, has the same shape: a plain `@Provides` method that returns `Map<Class<?>, Foo>`, a graph accessor for it, and a second binding that takes the map as a parameter. `Main` reads the map through both paths.
 
