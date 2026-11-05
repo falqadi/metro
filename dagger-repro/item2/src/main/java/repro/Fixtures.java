@@ -29,6 +29,12 @@ public final class Fixtures {
     }
   }
 
+  // The same shape as the Metro dump test Item2ProviderOfInjectClassInjected.kt.
+  @Component
+  public interface ConsumerGraph {
+    Consumer consumer();
+  }
+
   @Component
   public interface Item2Graph {
     Foo foo();
