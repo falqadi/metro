@@ -1423,6 +1423,26 @@ public class JsContributionProvidersBoxTestGenerated extends AbstractJsContribut
     }
 
     @Nested
+    @TestMetadata("compiler-tests/src/test/data/box/dependencygraph/accessors")
+    @TestDataPath("$PROJECT_ROOT")
+    public class Accessors {
+      private void run(String fileName) {
+        runTest("compiler-tests/src/test/data/box/dependencygraph/accessors/" + fileName);
+      }
+
+      @Test
+      public void testAllFilesPresentInAccessors() {
+        KtTestUtil.assertAllTestsPresentByMetadataWithExcluded(this.getClass(), new File("compiler-tests/src/test/data/box/dependencygraph/accessors"), Pattern.compile("^(.+)\\.kt$"), null, true, "interop", "circuit");
+      }
+
+      @Test
+      @TestMetadata("DaggerLazyAccessorsReuseTheirWrapper.kt")
+      public void testDaggerLazyAccessorsReuseTheirWrapper() {
+        run("DaggerLazyAccessorsReuseTheirWrapper.kt");
+      }
+    }
+
+    @Nested
     @TestMetadata("compiler-tests/src/test/data/box/dependencygraph/bindingcontainers")
     @TestDataPath("$PROJECT_ROOT")
     public class Bindingcontainers {
