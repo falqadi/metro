@@ -3740,6 +3740,26 @@ public class IrOnlyClassesBoxTestGenerated extends AbstractIrOnlyClassesBoxTest 
   }
 
   @Nested
+  @TestMetadata("compiler-tests/src/test/data/box/m20allocshapes")
+  @TestDataPath("$PROJECT_ROOT")
+  public class M20allocshapes {
+    private void run(String fileName) {
+      runTest("compiler-tests/src/test/data/box/m20allocshapes/" + fileName);
+    }
+
+    @Test
+    public void testAllFilesPresentInM20allocshapes() {
+      KtTestUtil.assertAllTestsPresentByMetadataWithExcluded(this.getClass(), new File("compiler-tests/src/test/data/box/m20allocshapes"), Pattern.compile("^(.+)\\.kt$"), null, true);
+    }
+
+    @Test
+    @TestMetadata("C1ScopedDaggerLazyAccessorRebuiltPerCall.kt")
+    public void testC1ScopedDaggerLazyAccessorRebuiltPerCall() {
+      run("C1ScopedDaggerLazyAccessorRebuiltPerCall.kt");
+    }
+  }
+
+  @Nested
   @TestMetadata("compiler-tests/src/test/data/box/member")
   @TestDataPath("$PROJECT_ROOT")
   public class Member {
